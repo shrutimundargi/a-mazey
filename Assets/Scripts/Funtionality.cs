@@ -15,4 +15,9 @@ public class Funtionality : MonoBehaviour
         Debug.Log("Quit!!");
         Application.Quit();
     }
+
+    public void MainOpt()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
